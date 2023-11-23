@@ -22,7 +22,7 @@ function App() {
   };
 
   const handleUpdate = async () => {
-    const endpoint = 'http://localhost:2400/graphql'; // Replace with your GraphQL endpoint
+    const endpoint = 'https://endpoint-school-hr.go-globalit.com/graphql'; // Replace with your GraphQL endpoint
 
     // Define the GraphQL mutation
     const mutation = gql`
